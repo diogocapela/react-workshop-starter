@@ -1,0 +1,29 @@
+/* Button */
+
+.Button {
+  padding: 10px 20px;
+}
+
+/* Counter */
+
+.Counter {
+  padding: 15px;
+  background: lightgray;
+}
+
+/* Navbar */
+
+.Navbar {
+  padding: 15px;
+  background-color: #333333;
+  color: white;
+}
+
+.Navbar>ul {
+  display: flex;
+  align-items: center;
+}
+
+.Navbar>ul>li:not(:last-of-type) {
+  margin-right: 15px;
+}

@@ -1,0 +1,38 @@
+/* Global Styles */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+a:hover {
+  color: currentColor;
+  text-decoration: underline;
+}
